@@ -55,3 +55,15 @@ O manifesto tem `versao`, `schemaVersion`, `publicadoEm`, `totalRegistros`, `tam
 - Consulta offline exige que o aparelho tenha concluído a carga ao menos uma vez.
 - O app não grava visitas no servidor nem atualiza o arquivo de origem.
 - Data da última visita não prova a data da última alteração no backoffice. O texto herdado da tela de diagnóstico foi ajustado no modelo para evitar essa equivalência.
+
+## Referências para o desenho do fluxo
+
+A imagem do projeto usa ícones de planilha, computador/Python, Google Drive e celular para mostrar o caminho dos arquivos. Referências visuais consultadas:
+
+- [Couchbase — Offline-first mobile apps](https://www.couchbase.com/blog/offline-first-more-reliable-mobile-apps/): representação visual de nuvem, dispositivos e armazenamento local.
+- [Android Developers — Build an offline-first app](https://developer.android.com/topic/architecture/data-layer/offline-first): separação entre dados de rede e fonte local do aplicativo.
+- [Google Drive — recursos da marca](https://developers.google.com/workspace/drive/api/guides/branding): identificação visual da integração com Google Drive.
+
+São referências de apresentação, não dependências do aplicativo. O desenho deste repositório é uma ilustração gerada para explicar o modelo. Google Drive é uma marca do Google. Os produtos ilustrados não indicam patrocínio ou certificação.
+
+O fluxo implementado aqui distribui uma cópia completa da base do computador para o celular. Diagramas de outras plataformas podem mostrar escrita e sincronização nos dois sentidos; essas funções não fazem parte deste modelo.
