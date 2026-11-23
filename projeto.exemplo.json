@@ -1,0 +1,27 @@
+{
+  "sheet": "Registros",
+  "csvDelimiter": ";",
+  "dateFormat": "%Y-%m-%d %H:%M:%S",
+  "modifiedFormat": "%Y-%m-%d %H:%M:%S",
+  "photoPolicy": "latest",
+  "maxDropPercent": 5,
+  "columns": {
+    "codigo_unico": "Matricula",
+    "code_deep": "Code Deep",
+    "data_hora": "Data e hora",
+    "municipio": "Municipio",
+    "setor": "Setor",
+    "bairro": "Bairro",
+    "logradouro": "Logradouro",
+    "numero": "Numero",
+    "complemento": "Complemento",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "situacao_backoffice": "Status",
+    "foto_visita": "Foto"
+  },
+  "publicationEnabled": false,
+  "driveFolderId": "",
+  "databaseFileId": "",
+  "manifestFileId": ""
+}

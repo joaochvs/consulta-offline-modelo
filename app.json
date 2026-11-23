@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Consulta de Campo",
+    "slug": "consulta-campo-modelo",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "consultacampo",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.exemplo.consultacampo",
+      "versionCode": 1
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      "expo-sharing"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "enabled": false
+    },
+    "extra": {
+      "router": {},
+      "databaseUrl": "",
+      "manifestUrl": "",
+      "revisitDatabaseUrl": "",
+      "revisitManifestUrl": ""
+    }
+  }
+}
